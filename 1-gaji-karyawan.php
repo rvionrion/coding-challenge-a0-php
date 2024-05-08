@@ -1,3 +1,4 @@
+<?php
 /*
 GAJI KARYAWAN
 
@@ -21,8 +22,6 @@ Ket:
   - Jam kerja * Golongan = Gaji Karyawan
 */
 
-<?php
-
 echo "Nama Karyawan : ";
 $nama_karyawan = trim(fgets(STDIN));
 
@@ -31,7 +30,6 @@ $golongan = trim(fgets(STDIN));
 
 echo "Jam Kerja : ";
 $jam_kerja = intval(fgets(STDIN));
-
 
 $gaji_golongan = 0;
 
